@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Art Gallery</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <link rel="stylesheet" href="portfoilo.js" />
+  <link rel="stylesheet" href="react.js" />
+</head>
+<body>
+  <header>
+    <h1>My Art Gallery</h1>
+    <h3><em> Art washes away from the soul the dust of everyday life.......</em></h3>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#order">Order</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="grid">
+      <div class="art" onclick="showDetails('Then Came The Wave (2025)')">
+        <img src="https://d3rf6j5nx5r04a.cloudfront.net/t4NAR68Sb1V825BZDEghP_d9ITM=/1120x0/product/4/2/0c812804cd9d486694f64288225c00a9_opt.jpg" alt="Then Came The Wave (2025)" width="50px" height="50px"/>
+        <p>Then Came The Wave (2025)</p>
+        <p> Acrylic painting
+by Omar Obaid </p>
+<p>Price : ₹243308.44 </p>
+      </div>
+      <div class="art" onclick="showDetails('Goldfish (2025)')">
+        <img src="https://d3rf6j5nx5r04a.cloudfront.net/vfE-rC5uGgMqA35QevlTR77y5io=/1120x0/product/0/e/b9b0eb2385964fbc99c01ee276584dbf_opt.jpg" alt="Goldfish (2025)"  width="50px" height="50px" />
+        <p>Goldfish (2025)</p>
+        <p> Pencil drawing
+by Ioanna Ladopoulou
+</p>
+<p> Price :  ₹120663.06 </p>
+      </div>
+      <div class="art" onclick="showDetails('It's Okay To Feel Big Feelings (2023)')">
+        <img src="https://d3rf6j5nx5r04a.cloudfront.net/k3_g29YFr8gWU1JGwhDyLv_a1FA=/1120x0/product/1/f/efa651533719488c82a3c40a78d73700_opt.jpg" alt="It's Okay To Feel Big Feelings (2023)"  width="50px" height="50px" />
+        <p>It's Okay To Feel Big Feelings (2023)</p>
+        <p> Acrylic painting
+by Laura Pedley </p>
+<p> Price :  ₹214263.12 </p>
+      </div>
+       <div class="art" onclick="showDetails('As Above (2025)')">
+        <img src="https://d3rf6j5nx5r04a.cloudfront.net/LVB0MhbS6c2Cn74heqQ4EIFSjkY=/1120x0/product/b/6/c065c4f460164dce9c758c810db9b24e_opt.jpg" alt="As Above (2025)"  width="50px" height="50px" />
+        <p>As Above (2025)</p>
+        <p> Acrylic painting
+by Cheba
+ </p>
+ <p> Price :  ₹92651.22 </p>
+</div>
+        <div class="art" onclick="ShowDetails('Wounded Healer (2023)')">
+          <img src="https://d3rf6j5nx5r04a.cloudfront.net/Y33QVubLVmw7sWYxv_ZfqLAQzXw=/1120x0/product/6/2/7d243730118b499bbd0297b9bd39538d_opt.jpg" alt="Wounded Healer (2023)"  width="50px" height="50px" />
+          <p>Wounded Healer (2023)</p>
+          <p>  Acrylic painting
+by Arte Ilay
+</p>
+<p> Price :  ₹100581.28 </p>
+        </div>
+        <div class="art" onclick="ShowDetails('Emmerge (2023)')">
+          <img src="https://d3rf6j5nx5r04a.cloudfront.net/62vr5uTsXzls5YWyyVRMHMGa6NA=/1120x0/product/7/b/97ade4cc58fd4e348e4a10362a6ab481.jpeg" alt="Emmerge (2023)"  width="50px" height="0px" />
+          <p>Emmerge(2023)</p>
+          <p> Relief
+by Warren Kerley
+</p>
+<p> Price :  ₹434473.20  </p>
+        </div>
+        <div class="art" onclick="ShowDetails('Beneath the Noise')">
+        <img src="https://d3rf6j5nx5r04a.cloudfront.net/rbFkxsb-hRcXNYLQfQ6S8y944_w=/1120x0/product/4/4/d33c50eed13e4081bf5ee06fda52ded2_opt.jpeg" alt="Beneath the Noise"  width="50px" height="50px" />
+        <p>Beneath the Noise</p>
+        <p> Mixed-media painting
+by iZZY iZVNE
+</p>
+<p> Price :  ₹120663.06 </p>
+ </div>
+        <div class="art" onclick="ShowDetails('Green Gossmer(2024)')">
+        <img src="https://d3rf6j5nx5r04a.cloudfront.net/L-bMkb70i_z8CCIugrVYo5LAt2M=/1120x0/product/6/2/d142184917084c77ba86eecd8bfbc16f_opt.jpg" alt="Green Gossmer(2024)"  width="50px" height="50px" />
+        <p>Green Gossmer(2024)</p>
+        <p> Linocut
+by Jacqui Jones
+</p>
+<p> Price :  ₹13876.25 </p>
+ </div>
+ <div class="art" onclick="ShowDetails('Adirondack Chairs (2024)')">
+        <img src="https://d3rf6j5nx5r04a.cloudfront.net/1NXIjP7Ammt0IByvClNlFK7j3lE=/1120x0/product/7/9/6eabee75af054b3a8a9ba003bd8c6771_opt.jpg" alt="Adirondack Chairs (2024)" />
+        <p>Adirondack Chairs (2024)</p>
+        <p> Watercolour
+by katie mccollow
+</p>
+<p> Price :  ₹77569.11 </p>
+ </div>
+ <div class="art" onclick="ShowDetails('The Meeting')">
+        <img src="https://d3rf6j5nx5r04a.cloudfront.net/a_vp2FxGWI9riMqS9OGv2GgEWjw=/1120x0/product/e/3/bc10e391e8c4433e90961c48f69aad37_opt.jpeg" alt="The Meeting" />
+        <p>The Meeting</p>
+        <p> Oil painting
+by Mothy Haemers
+</p>
+<p> Price :  ₹497648.93 </p>
+ </div>
+ <div class="art" onclick="ShowDetails('Milliard's Trail (2023)')">
+        <img src="https://d3rf6j5nx5r04a.cloudfront.net/ivlFLRgibB6HK8VMkDu9JAb5TeU=/1120x0/product/2/b/0084d46d54ac465583933d4c9a22561a_opt.jpg" alt="Milliard's Trail (2023)" />
+        <p>Milliard's Trail (2023)</p>
+        <p> Oil painting
+by David Block
+</p>
+<p> Price :  ₹81878.51 </p>
+ </div>
+ <div class="art" onclick="ShowDetails('Symbiosis (2020)')">
+        <img src="https://d3rf6j5nx5r04a.cloudfront.net/6CF2LSPlNXx5KaXBO-ACQvaZnRk=/1120x0/product/9/f/ebb0cd4b80a640d4975542f22e590100_opt.jpg" alt="Symbiosis (2020)" />
+        <p>Symbiosis (2020)</p>
+        <p> Photograph
+by Kamila Wiśniewska-Hałka
+</p>
+<p> Price :  ₹54815.50 </p>
+ </div>
+
+     </div>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p><h1> we have Art by very inspired Artist by: </h1>
+    Omar obaid, Cheba, david block, Mothy hamemers, Arte Ilay and more ...... </p>
+    <p> <h2> Welcome ART GALLERY </h2>
+     Hi there! You’ve just stepped into a place where creativity comes to life.
+     Here, you can explore and purchase stunning artworks including acrylic paintings, oil masterpieces,
+     grid arts, watercolors, and much more — all handcrafted by talented artists.
+   <h3>  Whether you're decorating your home, gifting a loved one, or simply indulging in art, we have something unique for every taste.</h3>
+   <h1><em>Browse. Select. Enjoy.</em></h1>
+    All artworks are available with Cash on Delivery (COD), and we promise fast & secure delivery within just 7 days right to your doorstep.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit"> Send </button>
+    </form>
+  </section>
+
+  <section id="order">
+    <h2>Order Artwork</h2>
+    <form>
+      <input type="text" placeholder="Artwork Name" required />
+      <input type="number" placeholder="Quantity" min="1" />
+      <input type="address" placeholder="Your address" required />
+      <button type="submit">Place Order</button>
+    </form>
+  </section>
+
+  <footer>
+    <p> @ 2025 My Art Gallery</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
